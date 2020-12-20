@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 注意：有 state 的 item 要擺在前面 -->
+    <item
+            android:state_pressed="true"
+>
+        <shape>
+            <solid
+                    android:color="#FF9224" />
+            <stroke
+                    android:width="1dp"
+                    android:color="	#D26900" />
+            <corners
+                    android:radius="2dp" />
+            <padding
+                    android:left="10dp"
+                    android:top="10dp"
+                    android:right="10dp"
+                    android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                    android:startColor="#FFA042"
+                    android:centerColor="#EA7500"
+                    android:endColor="#00FFFF"
+                    android:angle="270" />
+            <stroke
+                    android:color="#BB5E00" />
+            <corners
+                    android:radius="10dp" />  <!--邊角圓滑程度-->
+            <padding
+                    android:left="10dp"
+                    android:top="10dp"
+                    android:right="10dp"
+                    android:bottom="10dp" />
+        </shape>
+    </item>
+
+</selector>
